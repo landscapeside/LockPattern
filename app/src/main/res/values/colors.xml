@@ -9,4 +9,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="lockRed">#FFAC030B</color>
+    <color name="lockBlue">#00034e</color>
+    <color name="lockGray">#d7d7d7</color>
+
 </resources>

@@ -50,6 +50,7 @@ public class GestureLoginActivity extends AppCompatActivity {
         //得到当前用户的手势密码
         gesturePassword = aCache.getAsBinary(Constant.GESTURE_PASSWORD);
         lockPatternView.setOnPatternListener(patternListener);
+        lockPatternView.setTactileFeedbackEnabled(true);
         updateStatus(Status.DEFAULT);
     }
 

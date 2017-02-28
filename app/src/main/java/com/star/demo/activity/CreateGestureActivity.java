@@ -51,6 +51,7 @@ public class CreateGestureActivity extends Activity {
 	private void init() {
 		aCache = ACache.get(CreateGestureActivity.this);
 		lockPatternView.setOnPatternListener(patternListener);
+		lockPatternView.setTactileFeedbackEnabled(true);
 	}
 
 	/**
